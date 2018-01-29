@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		356E252193A649AA3A2A890D /* Pods_ArbitraryJSONCodable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArbitraryJSONCodable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5008DD0D5D3F42DA3443E4FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5008DD0D5D3F42DA3443E4FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ArbitraryJSONCodable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbitraryJSONCodable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B35326818E21D80F0910CC58 /* Pods-ArbitraryJSONCodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbitraryJSONCodable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArbitraryJSONCodable_Tests/Pods-ArbitraryJSONCodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAE6548392FC525AF8C78BD2 /* ArbitraryJSONCodable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ArbitraryJSONCodable.podspec; path = ../ArbitraryJSONCodable.podspec; sourceTree = "<group>"; };
+		CAE6548392FC525AF8C78BD2 /* ArbitraryJSONCodable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ArbitraryJSONCodable.podspec; path = ../ArbitraryJSONCodable.podspec; sourceTree = "<group>"; };
 		DC6AF9C54F341270440E6FEE /* Pods-ArbitraryJSONCodable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbitraryJSONCodable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArbitraryJSONCodable_Example/Pods-ArbitraryJSONCodable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2066D716E14561F3FF69EBC /* Pods-ArbitraryJSONCodable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbitraryJSONCodable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArbitraryJSONCodable_Example/Pods-ArbitraryJSONCodable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F11B7E11B03476B8CBB1FFFA /* Pods_ArbitraryJSONCodable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArbitraryJSONCodable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3BC2C8B7F864363AA4A383 /* Pods-ArbitraryJSONCodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbitraryJSONCodable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArbitraryJSONCodable_Tests/Pods-ArbitraryJSONCodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FE00927BE8B6761FCD8DE694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE00927BE8B6761FCD8DE694 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,10 +211,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Karl Catigbe";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M8X8TH4LN3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -522,6 +523,7 @@
 			baseConfigurationReference = DC6AF9C54F341270440E6FEE /* Pods-ArbitraryJSONCodable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8X8TH4LN3;
 				INFOPLIST_FILE = ArbitraryJSONCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -537,6 +539,7 @@
 			baseConfigurationReference = E2066D716E14561F3FF69EBC /* Pods-ArbitraryJSONCodable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8X8TH4LN3;
 				INFOPLIST_FILE = ArbitraryJSONCodable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

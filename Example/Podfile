@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'ArbitraryJSONCodable_Example' do
   pod 'ArbitraryJSONCodable', :path => '../'
-
+  pod 'SwiftLint'
   target 'ArbitraryJSONCodable_Tests' do
     inherit! :search_paths
 

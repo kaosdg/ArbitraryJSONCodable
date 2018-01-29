@@ -22,7 +22,7 @@ pod 'ArbitraryJSONCodable'
 
 ## Author
 
-kaosdg, Karl.Catigbe@viacom.com
+kaosdg, spam@condemned.net
 
 ## License
 
